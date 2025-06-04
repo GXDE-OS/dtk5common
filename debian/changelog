@@ -1,8 +1,106 @@
-dtkcommon (5.6.35) UNRELEASED; urgency=medium
+dtkcommon (5.7.16-2) unstable; urgency=medium
 
-  * Non-maintainer upload.
+  * Release 5.7.16 on GXDE OS
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 29 Mar 2025 09:30:49 +0800
+ -- shenmo <shenmo@spark-app.store>  Mon, 19 May 2025 17:21:42 +0800
+
+dtkcommon (5.7.15) unstable; urgency=medium
+
+  * Release 5.7.15
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 08 May 2025 17:52:55 +0800
+
+dtkcommon (5.7.14) unstable; urgency=medium
+
+  * Release 5.7.14
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 17 Apr 2025 21:51:03 +0800
+
+dtkcommon (5.7.13) unstable; urgency=medium
+
+  * Release 5.7.13
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 20 Mar 2025 17:05:22 +0800
+
+dtkcommon (5.7.12) unstable; urgency=medium
+
+  * Release 5.7.12
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 06 Mar 2025 17:29:06 +0800
+
+dtkcommon (5.7.11) unstable; urgency=medium
+
+  * Release 5.7.11
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 27 Feb 2025 20:47:06 +0800
+
+dtkcommon (5.7.10) unstable; urgency=medium
+
+  * Release 5.7.10
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 13 Feb 2025 17:17:51 +0800
+
+dtkcommon (5.7.9) unstable; urgency=medium
+
+  [ root ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 23 Jan 2025 09:07:08 +0000
+
+dtkcommon (5.7.8) unstable; urgency=medium
+
+  [ root ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Tue, 14 Jan 2025 11:17:31 +0000
+
+dtkcommon (5.7.7) unstable; urgency=medium
+
+  [ root ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 09 Jan 2025 09:28:38 +0000
+
+dtkcommon (5.7.6) unstable; urgency=medium
+
+  [ root ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 02 Jan 2025 05:43:52 +0000
+
+dtkcommon (5.7.5) unstable; urgency=medium
+
+  [ root ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 12 Dec 2024 03:03:53 +0000
+
+dtkcommon (5.7.4) unstable; urgency=medium
+
+  * feat: add 'scrollBarPolicy' and 'sizeMode' config
+
+ -- Deepin Packages Builder <packages@deepin.org>  Tue, 03 Dec 2024 02:00:45 +0000
+
+dtkcommon (5.7.3) unstable; urgency=medium
+
+  [ root ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 20 Nov 2024 02:19:06 +0000
+
+dtkcommon (5.7.2) unstable; urgency=medium
+
+  [ root ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 13 Nov 2024 01:53:26 +0000
+
+dtkcommon (5.7.1) unstable; urgency=medium
+
+  [ root ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 16 Oct 2024 03:30:44 +0000
 
 dtkcommon (5.6.34) unstable; urgency=medium
 

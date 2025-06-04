@@ -8,10 +8,10 @@ Homepage: http://www.deepin.org/
 
 Package: libdtkdata
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Conflicts: libdtkcommon (>= 5.7.12)
-Provides: libdtkcommon
+Provides: libdtkcommon(=${source:Version})
+Conflicts: libdtkcommon
 Replaces: libdtkcommon
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: dtk common files
  Used to store public configuration files
 
