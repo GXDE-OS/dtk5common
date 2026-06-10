@@ -9,7 +9,7 @@ Copyright: None
 License: CC0-1.0
 
 # Readme
-Files: README.md README.zh_CN.md
+Files: README.md README.zh_CN.md CHANGELOG.md
 Copyright: None
 License: CC0-1.0
 
@@ -39,6 +39,6 @@ Copyright: None
 License: CC0-1.0
 
 # cmake
-Files: *.cmake *CMakeLists.txt *.pc.in
+Files: *.cmake *CMakeLists.txt *.pc.in VERSION VERSION.in
 Copyright: None
 License: CC0-1.0
