@@ -2,34 +2,34 @@
 pkgname=dtkcommon-git
 pkgver=5.7.16
 pkgrel=2
-sourcename=dtkcommon
-sourcetars=("$sourcename"_"$pkgver".tar.xz)
-sourcedir="$sourcename"
 pkgdesc='DTK common modules'
 arch=('any')
 url="https://github.com/linuxdeepin/dtkcommon"
 license=('BSD-3-Clause' 'CC0-1.0')
 depends=('dconf')
-makedepends=('cmake' 'ninja')
+makedepends=('git' 'cmake' 'ninja')
 provides=('dtkcommon')
 conflicts=('dtkcommon')
 groups=('deepin-git')
-source=("${sourcetars[@]}")
-sha512sums=('SKIP')
+source=()
+sha512sums=()
+
+# 直接使用 PKGBUILD 所在的 git 仓库作为源码 ・ Build from the git checkout this PKGBUILD lives in.
+_srcroot() {
+  git -C "$startdir" rev-parse --show-toplevel
+}
 
 build() {
-  cd "$sourcedir"
   # CMake project() only accepts numeric versions, drop suffixes like .r8.gabc123
   version=$(echo "$pkgver" | grep -oE '^[0-9]+(\.[0-9]+){0,3}')
-  cmake . -GNinja \
+  cmake -B build -S "$(_srcroot)" -GNinja \
     -DDTK_VERSION="$version" \
     -DCMAKE_INSTALL_LIBDIR=lib \
     -DCMAKE_INSTALL_PREFIX=/usr
-  ninja
+  ninja -C build
 }
 
 package() {
-  cd "$sourcedir"
-  DESTDIR="$pkgdir" ninja install
-  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  DESTDIR="$pkgdir" ninja -C build install
+  install -Dm644 "$(_srcroot)/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
