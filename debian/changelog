@@ -1,3 +1,10 @@
+dtkcommon (6.7.43-3) unstable; urgency=medium
+
+  * Add disableInWindowBlur, defaultColorMode and colorMode to
+    org.deepin.dtk.preference (sync from upstream, fixes dtk5gui 6.7.43 build)
+
+ -- CharOfString <root@charofstring.cc>  Sat, 10 Oct 2026 23:45:54 -0500
+
 dtkcommon (5.7.16-2) unstable; urgency=medium
 
   * Release 5.7.16 on GXDE OS
